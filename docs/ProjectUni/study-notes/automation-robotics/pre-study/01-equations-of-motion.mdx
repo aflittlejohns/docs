@@ -1,0 +1,38 @@
+---
+title: Equations of Motion
+---
+import GeneralPlanarMotion from '@site/static/img/equations_of_motion/Acceleration_vector_plane_polar_coords.svg';
+
+The following notes are from [Equations of Motion](https://en.wikipedia.org/wiki/Equations_of_motion) up to Dynamic Equations of Motion
+
+## Equations of Motion
+
+Equations of motion describe the behaviour of a physical system as a set of mathematical functions in terms of dynamic 
+variables, usually spatial coordinates and time, but may include momentum.
+
+#### Equation of Momentum
+$$
+p = mv
+$$
+- **momentum** is $$p$$;
+- **mass** is $$m$$;
+- **velocity** is $$v$$;
+
+Mathematical functions of motion are defined in a [Euclidean Space](https://en.wikipedia.org/wiki/Euclidean_space).
+
+![Euclidean Space](@site/static/img/euclidean-space.png)
+
+## Types
+
+There are two main descriptions of motion: dynamics and [kinematics](https://en.wikipedia.org/wiki/Kinematics)
+
+## General planar motion
+These are the kinematic equations for a particle traversing a path in a plane, described by $$r=r(t)$$
+They are simply the time derivative of the position vector in plane [polar coordinates](https://en.wikipedia.org/wiki/Polar_coordinates)
+using the definitions of physical quantities for angular velocity $$\omega$$ and angular acceleration $$\alpha$$. These
+are instantaneous quantities which change with time.
+
+The position of the particle is
+$$ r = r(r(t),\theta(t)) = r \hat e _{r}$$ ;
+  where $$\hat e _{r}$$ and $$\hat e _{\theta}$$ are the polar unit vectors.
+<GeneralPlanarMotion />
