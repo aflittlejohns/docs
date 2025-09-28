@@ -2,21 +2,46 @@
 sidebar_position: 1
 ---
 
-# Welcome
+# FRED
 
-Welcome to our documentation site! This site is built with [Docusaurus](https://docusaurus.io/), a modern static website generator.
+The purpose this docu-site is to function as a study companion, a study buddy!, if you will.
+Hmm... a name, we need a name, what can you be called. Ah, I know FRED. Functional Repo for EDucation.
 
-## Getting Started
+## Welcome to FRED
 
-This documentation site provides information about our projects and services. You can navigate through different sections using the sidebar on the left.
+A journey of;
+- SMART Objectives
+- Risk Assessments
+- Equality, Diversity and Inclusion
+- Research and Investigation
+- Design
+- Implementation
+- Commissioning
+- Review
 
-## Features
+### What you'll need
 
-- **Fast**: Built with modern web technologies for optimal performance
-- **Responsive**: Works great on both desktop and mobile devices
-- **Searchable**: Find what you're looking for quickly
-- **Interactive**: Rich content with code examples and demos
+- An unlimited supply of caffeine
+- Plenty of physical exercise
+- Regular breaks, walks, space for reflection
+- Plenty of water
+- A healthy diet
+- Eight hours of sleep every night.
+- 
+:fire: You got this!
 
-## Navigation
 
-Use the navigation bar at the top and the sidebar on the left to explore different sections of the documentation.
+## Start this site locally
+
+Run the development server:
+
+```bash
+cd my-website
+npm run start
+```
+
+The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+
+The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+
+Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

@@ -1,19 +1,34 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+Research:
+  label: Research
+  permalink: /research
+  description: Research
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+Notes:
+  label: Notes
+  permalink: /notes
+  description: Notes
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+Automation:
+  label: Automation
+  permalink: /automation
+  description: Automation
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+Log Book:
+  label: Log Book
+  permalink: /log-book
+  description: The Journey
+
+Process Control:
+  label: Process Control
+  permalink: /process-control
+  description: Process Control
+
+Robotics:
+  label: Robotics
+  permalink: /robotics
+  description: Robotics
+
+Embedded Systems:
+  label: Embedded Systems
+  permalink: /embedded-systems
+  description: Embedded Systems

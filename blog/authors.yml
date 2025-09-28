@@ -1,25 +1,11 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+aflittlejohns:
+  name: Adrian Littlejohns
+  title: Industrial Process Control and Automation Enthusiast
+  url: https://www.linkedin.com/in/adrian-littlejohns-48772183/
+  image_url: https://media.licdn.com/dms/image/v2/C4E03AQEJy95V-ftF1A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516896311831?e=1761782400&v=beta&t=FrKIqlR-UJzkuG9MzMXHhj_J2GXOv8TGO_c_1CFHGF8
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    linkedin: https://www.linkedin.com/in/adrian-littlejohns-48772183
+    github: https://github.com/aflittlejohns
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+
