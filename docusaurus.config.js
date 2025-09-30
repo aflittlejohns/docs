@@ -110,9 +110,9 @@ const config = {
                     },
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
-                        href: 'https://github.com/aflittlejohns/docs',
-                        label: 'GitHub',
-                        position: 'right',
+                        href: 'https://github.com/orgs/pfAuto/projects/15',
+                        label: 'Project',
+                        position: 'left',
                     },
                 ],
             },
