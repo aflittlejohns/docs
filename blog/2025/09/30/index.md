@@ -2,7 +2,7 @@
 slug: ethics-approval-day-1
 title: Ethics Approval - day 1
 authors: [aflittlejohns]
-tags: [ Log Book , Notes]
+tags: [ Log Book ]
 ---
 
 ## A Summary of Today
