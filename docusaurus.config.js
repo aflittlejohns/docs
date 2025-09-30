@@ -99,7 +99,7 @@ const config = {
                 title: 'Documentation',
                 logo: {
                     alt: 'Documentation Logo',
-                    src: 'img/logo.svg',
+                    src: 'img/house.svg',
                 },
                 items: [
                     {
@@ -136,12 +136,12 @@ const config = {
                                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
                             },
                             {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
+                                label: 'Inductive Automation',
+                                href: 'https://docs.inductiveautomation.com/',
                             },
                             {
-                                label: 'X',
-                                href: 'https://x.com/docusaurus',
+                                label: 'SiePortal',
+                                href: 'https://login.siemens.com/u/login/identifier?state=hKFo2SBJakdyeXBGemNBbDNmS2JtUzVHZVo0N25zVVFxRWNUa6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFpiRDdEUHBsWmpHaFpHeGtCaDlGT0NmeW9xUl9mQk4xo2NpZNkgM1BoWXkwaHVQbEdVWTNqZnA5OThOdzJuS25vR21VTGU',
                             },
                         ],
                     },
@@ -154,7 +154,7 @@ const config = {
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/aflittlejohns/docs',
+                                href: '/intro',
                             },
                         ],
                     },
