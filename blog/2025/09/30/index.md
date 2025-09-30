@@ -1,5 +1,5 @@
 ---
-slug: 2025-09-30
+slug: ethics-approval-day-1
 title: Ethics Approval - day 1
 authors: [aflittlejohns]
 tags: [ Log Book , Notes]
@@ -9,4 +9,4 @@ tags: [ Log Book , Notes]
 
 > A day when you think - wouldn't it be marvelous to have [OctoPlant](https://amdt.com/en/octoplant)!!
 
-- Progressed "PIS - Control Screen User Experience", still a "work in progress"
+- Progressed "[PIS - Control Screen User Experience](https://aflittlejohns.github.io/docs/ProjectUni/research/participate-information-sheet)", still a "work in progress"
