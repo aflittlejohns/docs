@@ -3,6 +3,7 @@ slug: ethics-approval-day-2
 title: Ethics Approval - day 2
 authors: [ aflittlejohns ]
 tags: [ Log Book ]
+date: 2025-10-01T20:15
 ---
 
 ### Question - How can UX be quantified?
@@ -120,3 +121,6 @@ ___
 | c. There is adequate cybersecurity.                        |   |   |   |   |   |
 
 ---
+
+@20:15 
+- Participant Information Form, Participant consent and Questionnaire, signed and submitted :crossed_fingers:
