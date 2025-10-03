@@ -9,7 +9,7 @@ date: 2025-10-02
 - Will the existing panel cut-off need resizing for the new HMI?
 - Start investigating HMI tags - Starting with Alarm tags
 - Ready Step 7 Classic project for migration
-- <!-- truncation -->
+<!-- truncate -->
 ## Question - What are the dimensions of the existing HMI panel cut-out?
 
 ### Beijer E1101 - Panel Cut-out

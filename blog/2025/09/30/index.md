@@ -11,5 +11,5 @@ tags: [ Log Book ]
 
 ## Today's Tasks
 - Begin writing up a research study's "Participants Information Sheet"?
-- <!-- truncation -->
+<!-- truncate -->
 - Progressed "[PIS - Control Screen User Experience](/ProjectUni/research/participate-information-sheet)", still a "work in progress"

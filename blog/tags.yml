@@ -2,6 +2,11 @@ Research:
   label: Research
   permalink: /research
   description: Research
+  
+TIA Portal:
+  label: TIA Portal
+  permalink: /tia-portal
+  description: Anything to aid the grind
 
 Notes:
   label: Notes
