@@ -6,6 +6,10 @@ tags: [ Log Book ]
 date: 2025-10-01T20:15
 ---
 
+## Today's Tasks
+- How can the "User Experience" afforded by an HMI/SCADA application be quantified?
+- What questions should survey participants provide answers too?
+- <!-- truncation -->
 ### Question - How can UX be quantified?
 
 #### Reading

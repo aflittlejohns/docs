@@ -8,6 +8,7 @@ title: External Site Resources
 
 ## Siemens - Industrial Solutions
 1. [SiePortal- Home](https://sieportal.siemens.com/en-ww/home)
+2. [Migration of plants with SIMATIC (TIA Portal) - Controllers](https://www.industry-mobile-support.siemens-info.com/en/article/detail/83557459)
 
 
 ## Inductive Automation
