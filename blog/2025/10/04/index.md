@@ -67,4 +67,13 @@ Investigated the SCADA Client app further,to find it pulls in data for each `IOS
 These files contained the information detailing datablock access
 
 
+Wrote a Python3 script to ExtractUniqueDatablockNumbers.py from the Tag Server app tag dump.
 
+**Result**
+```bash
+project-uni/sections/hmi/ignition_migration_tools/py/ExtractUniqueDatablockNumbers.py
+['1001', '402', '406', '410', '414', '416', '418', '422', '425', '426', '427', '476', '477', '478', '480', '481', '494', '495', '520', '602', '603', '610', '630', '631', '642', '651', '652', '653', '654', '655', '658', '660', '751', '753', '768', '901']
+```
+
+#### Full list of accessed datablocks,
+can be found --> [accessDatablocks.csv](https://github.com/pfAuto/project-uni/blob/6b99459b18cf50831e924878cd9f16feb02fc9f1/sections/hmi/accessedDatablocks.csv).
