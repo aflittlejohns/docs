@@ -17,10 +17,12 @@ title: External Site Resources
 8. [Library of general Functions (LGF) for SIMATIC STEP 7(TIA Portal) and S7-1200/1500](https://support.industry.siemens.com/cs/document/109479728/library-of-general-functions-(lgf)-for-simatic-step-7-(tia-portal)-and-simatic-s7-1200-s7-1500?dti=0&lc=en-GB)
 9. [Library of PLC data types (LPD) for STEP 7 (TIA Portal) and S7-1200/1500](https://support.industry.siemens.com/cs/document/109482396/libraries-of-plc-data-types-(lpd)-for-step-7-(tia-portal)-and-simatic-s7-1200-s7-1500?dti=0&lc=en-GB)
 10. [Which FAQs and manual information are available for indirect addressing in STEP 7 (TIA Portal)?](https://support.industry.siemens.com/cs/document/109800438/which-faqs-and-manual-information-are-available-for-indirect-addressing-in-step-7-(tia-portal)-?dti=0&lc=en-GB)
+11. [OPC UA – An overview of the most important entries and links](https://support.industry.siemens.com/cs/document/109770435/opc-ua-%E2%80%93-an-overview-of-the-most-important-entries-and-links-?dti=0&lc=en-GB)
+12. [TIA Portal - An Overview of the Most Important Documents and Links - Communication](https://support.industry.siemens.com/cs/document/90940081/tia-portal-an-overview-of-the-most-important-documents-and-links-communication?dti=0&lc=en-GB)
 
 
 ## Inductive Automation
 1. [Inductive Automation Docs](https://docs.inductiveautomation.com/)
 2. 
 ## Technical Standards
-1. [IANA - Internet Assigned Numbers Authority - Port Numbers](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+1. [IANA - Internet Assigned Numbers Authority - Port Numbers](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
