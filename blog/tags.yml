@@ -2,7 +2,12 @@ Research:
   label: Research
   permalink: /research
   description: Research
-  
+
+Future Task:
+  label: Future Task
+  permalink: /future-task
+  description: There is a future task to do in this post
+
 TIA Portal:
   label: TIA Portal
   permalink: /tia-portal

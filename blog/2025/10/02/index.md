@@ -1,6 +1,6 @@
 ---
-slug: investigate-equipment-hmi-tag-requirements 
-title: Investigate Equipment, HMI Tag Requirements and begin readying the PLC Project for Migration
+slug: phase-1-investigation-day-1
+title: Phase 1 - Investigate - Equipment Requirements
 authors: [ aflittlejohns ]
 tags: [ Log Book ]
 date: 2025-10-02
