@@ -1,0 +1,77 @@
+---
+title: Project Uni
+---
+import Icon from "@site/static/img/research.svg";
+import Link from "@docusaurus/Link";
+
+<div style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(3,1fr)",
+    gridAutoRows: "minmax(100px, auto)",
+        gap: "15px",
+}} className="cardContainer">
+
+    <card
+        style={{
+        height: "150px",
+        width: "1fr",
+        display: "flex",
+        flexDirection: "column",
+        alignContent: "center",
+        justifyContent: "center",
+        border:"3px solid var(--ifm-color-emphasis-200)",
+        borderRadius: "var(--ifm-card-border-radius)",
+            boxShadow: "var(--ifm-global-shadow-lw)",
+        padding:"0.25rem",
+    }}>
+    <Link
+        className="button button--secondary button--lg"
+        to="/docs/category/research">
+        <label style={{fontSize: "2rem"}}>
+            Research
+        </label>
+        <Icon  role="img" />
+    </Link>
+    </card>
+    <card style={{
+        height: "150px",
+        width: "1fr",
+        display: "flex",
+        flexDirection: "column",
+        alignContent: "center",
+        justifyContent: "center",
+        border:"3px solid var(--ifm-color-emphasis-200)",
+        borderRadius: "var(--ifm-card-border-radius)",
+        padding:"0.25rem",
+    }}>
+        <Link
+            className="button button--secondary button--lg"
+            to="/docs/category/study-notes">
+            <label style={{fontSize: "2rem"}}>
+                Study Notes
+            </label>
+            <Icon  role="img" />
+        </Link>
+    </card>
+    <card style={{
+        height: "150px",
+        width: "1fr",
+        display: "flex",
+        flexDirection: "column",
+        alignContent: "center",
+        justifyContent: "center",
+        border:"3px solid var(--ifm-color-emphasis-200)",
+        borderRadius: "var(--ifm-card-border-radius)",
+        padding:"0.25rem",
+    }}>
+        <Link
+            className="button button--secondary button--lg"
+            to="/docs/blog">
+            <label style={{fontSize: "2rem"}}>
+                Log Book
+            </label>
+            <Icon  role="img" />
+        </Link>
+    </card>
+
+</div>

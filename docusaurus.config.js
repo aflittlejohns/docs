@@ -12,9 +12,8 @@ import rehypeKatex from 'rehype-katex'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Documentation',
-    tagline: 'Documentation site built with Docusaurus',
-    favicon: 'img/favicon.ico',
+    title: 'Fred',
+    tagline: 'Functional Repo for EDucation',
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
     future: {
@@ -88,6 +87,29 @@ const config = {
             crossorigin: 'anonymous',
         },
     ],
+    markdown: {
+        mermaid: true,
+    },
+
+    themes: [
+        "@docusaurus/theme-mermaid",
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+            {
+                // ... Your options.
+                // `hashed` is recommended as long-term-cache of index file is possible.
+                hashed: true,
+                indexBlog: true,
+                docsRouteBasePath: "/docs",
+                // For Docs using Chinese, it is recomended to set:
+                // language: ["en", "zh"],
+
+                // If you're using `noIndex: true`, set `forceIgnoreNoIndex` to enable local index:
+                // forceIgnoreNoIndex: true,
+            },
+        ],
+    ],
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
@@ -97,9 +119,9 @@ const config = {
                 respectPrefersColorScheme: true,
             },
             navbar: {
-                title: 'Documentation',
+                title: 'Fred',
                 logo: {
-                    alt: 'Documentation Logo',
+                    alt: 'Fred Logo',
                     src: 'img/house.svg',
                 },
                 items: [
