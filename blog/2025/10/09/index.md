@@ -1,6 +1,6 @@
 ---
 slug: phase-2-day-1
-title: Phase 2 - Prepare - Migrating PLC
+title: Phase 2 - Resolve Compilation Errors
 authors: [ aflittlejohns ]
 tags: [ Log Book, TIA Portal ]
 ---
@@ -9,7 +9,8 @@ tags: [ Log Book, TIA Portal ]
 1. Compilations Errors.
    1. [ALS_ScrollList](https://github.com/pfAuto/project-uni/issues/28) ✅
     2. [MIN_INT](https://github.com/pfAuto/project-uni/issues/29) ✅
-   {/* truncate */}
+<!-- truncate -->
+
 
 ## Compilation Errors
 

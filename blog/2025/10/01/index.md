@@ -44,15 +44,15 @@ user experience provided by the control screen.
 ---
 
 | ~~~~~~~~~~~~~~ Comment on Satisfaction (optional) ~~~~~~~~~~~~~~~~~~~~ |
-|-----------------------------------------------------------------------------------------------------| 
-|                                                                                                     |
-|                                                                                                     |
-|                                                                                                     |
-|                                                                                                     |
-|                                                                                                     |
-|                                                                                                     |
-|                                                                                                     |
-|                                                                                                     |
+|------------------------------------------------------------------------| 
+|                                                                        |
+|                                                                        |
+|                                                                        |
+|                                                                        |
+|                                                                        |
+|                                                                        |
+|                                                                        |
+|                                                                        |
 
 ___
 
@@ -108,11 +108,11 @@ ___
 
 **7. Learnability**
 
-| Question                          | 1 | 2 | 3 | 4 | 5 |
-|-----------------------------------|---|---|---|---|---|
-| It's easy to learn how to operate |   |   |   |   |   |
+| Question                           | 1 | 2 | 3 | 4 | 5 |
+|------------------------------------|---|---|---|---|---|
+| It's easy to learn how to operate  |   |   |   |   |   |
 | System status is clearly displayed |   |   |   |   |   |
-| It's easy to know what to do next |   |   |   |   |   |
+| It's easy to know what to do next  |   |   |   |   |   |
 
 ---
 

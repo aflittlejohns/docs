@@ -1,6 +1,6 @@
 ---
 slug: phase-2-day-2
-title: Phase 2 - Prepare - Migrating PLC
+title: Phase 2 - Resolve Compilation Errors
 authors: [ aflittlejohns ]
 tags: [ Log Book, TIA Portal, Future Task ]
 ---
@@ -16,10 +16,12 @@ tags: [ Log Book, TIA Portal, Future Task ]
     6. [SEL_16_REAL_ENABLE](https://github.com/pfAuto/project-uni/issues/35) ✅
     7. [SimulationBlock](https://github.com/pfAuto/project-uni/issues/36) ✅
     8. [_STD_LogCopyToBuffer](https://github.com/pfAuto/project-uni/issues/27) ✅
-    8. [RampPIC430](https://github.com/pfAuto/project-uni/issues/30) ✅
+    9. [RampPIC430](https://github.com/pfAuto/project-uni/issues/30) ✅
 2. Compilation Warnings.
-    3. [_STD_CMD_Phase](https://github.com/pfAuto/project-uni/issues/39)
-       {/* truncate */}
+    1. [_STD_CMD_Phase](https://github.com/pfAuto/project-uni/issues/39)
+   2. [_STD_PhaseID](https://github.com/pfAuto/project-uni/issues/40)
+      <!-- truncate -->
+
 
 ## Compilation Errors
 
@@ -121,17 +123,18 @@ with "instPIC420"
 
 #### Method
 
-1. Network 61
 
 ![img.png](img.png)
 
+1. Network 61
 2. Deleted network 61 as LT525 does not exist.
 
 ### _STD_LogCopyToBuffer
 
 #### Method
+Commented out sections in network 2 and 6 as shown below.
 
-1. Network 2
+Network 2
 
 ```text
 // Commented out to resolve compilation error. afl 101025
@@ -141,7 +144,7 @@ with "instPIC420"
 //------------------------
 ```
 
-2. Network 6
+Network 6
 
 ```text
    //------------------------
@@ -153,7 +156,7 @@ with "instPIC420"
 
 ```
 
-3. Testing
+Testing
 
 :::danger Future Task
 Need to test this block in testing phase of this project
@@ -208,11 +211,37 @@ As follows;
 | - Acquire	  | Bool	     |		
 | - GoStep	   | Bool	     |		
 
-2. In a calling block, inserted the `command Struct` in the `Temp`
-3. Updated this block call
+1. In a calling block, inserted the `command Struct` in the `Temp`
+2. Updated this block call
 3. Deleted original TMP_CMD_xxx variables 
 4. Employed the `command Struct` at the `command` `InOut` parameter.
 5. Re-compiled software (Rebuild All).
+
+### _STD_PhaseID
+
+#### Method
+
+1. Created new function `_StdPhaseId` and replaced usage of `_STD_PhaseID` with it.
+2. Deleted `_STD_PhaseID`
+3. Compiled software (Rebuild All)
+
+
+### _STD_PhaseID_Transfer
+
+#### Method
+
+1. Created new function `_StdPhaseIdTransfer` and replaced usage of `_STD_PhaseID_Transfer` with it.
+2. Deleted `_STD_PhaseID_Transfer`
+3. Compiled software (Rebuild All)
+
+
+### _STD_PhaseID_Transfer
+
+#### Method
+
+1. Created new function `_StdPhaseIdCipCircuit` and replaced usage of `_STD_PhaseID_CipCurcuit` with it.
+2. Deleted `_STD_PhaseID_CipCircuit`
+3. Compiled software (Rebuild All)
 
 ## What's Next
 
