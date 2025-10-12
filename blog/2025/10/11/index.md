@@ -133,13 +133,11 @@ Block Interface Output variables were being read.
 
 #### The Fix
 
-1. Created a `rw` Struct in the block interface InOut area, 
-2. moved the problematic variables into the new Struct
-3. updated the variable references in the code networks. 
-4. In `MAIN_PRG` pasted `rw` struct into the block interface Temp area. 
-5. Updated the `PULSGENERATOR` block call
-6. Updated the rw parameter to reference the `MAIN_PRG`  Temp `rw` variable
-7. Compiled software(Rebuild All)
+1. Removed lines `A #ALWAYS_FALSE` and `AN #ALWAYS_TRUE`, 
+2. Added `SET` on line 1
+3. Moved the `HELP_BYTE` to the `InOut` interface. 
+4. Updated the `PULSGENERATOR` block call
+5. Compiled, Program Blocks > software(Rebuild All)
 
 Before fix
 
@@ -150,6 +148,7 @@ MAIN_PRG
 ![img_5.png](img_5.png)
 
 After fix
+
 
 ![img_6.png](img_6.png)
 
