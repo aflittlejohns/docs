@@ -20,6 +20,8 @@ tags: [ Log Book, TIA Portal, Future Task ]
 2. Compilation Warnings.
     1. [_STD_CMD_Phase](https://github.com/pfAuto/project-uni/issues/39)
    2. [_STD_PhaseID](https://github.com/pfAuto/project-uni/issues/40)
+   3. [_STD_PhaseID_Transfer](https://github.com/pfAuto/project-uni/issues/41)
+   4. [_STD_PhaseID_CIpCurcuit](https://github.com/pfAuto/project-uni/issues/42)
       <!-- truncate -->
 
 
@@ -235,7 +237,7 @@ As follows;
 3. Compiled software (Rebuild All)
 
 
-### _STD_PhaseID_Transfer
+### _STD_PhaseID_CipCurcuit
 
 #### Method
 

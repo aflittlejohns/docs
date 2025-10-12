@@ -13,6 +13,9 @@ tags: [ Log Book, TIA Portal]
     4. [SELECTION_16](https://github.com/pfAuto/project-uni/issues/49)
    5. [INTEGER TO S5TIME](https://github.com/pfAuto/project-uni/issues/50)
    6. [TREND_PENS_2](https://github.com/pfAuto/project-uni/issues/51)
+   7. [Com_M_Alcip_FC](https://github.com/pfAuto/project-uni/issues/53)
+   8. [COMPLETE_RESTART](https://github.com/pfAuto/project-uni/issues/54)
+   9.[_STD_CondEvaluation](https://github.com/pfAuto/project-uni/issues/55)
 
 
 <!-- truncate -->
@@ -99,3 +102,41 @@ TREND_PENS_2 called in `GeneralHMI`
 #### The Fix
 
 Moved parameters `PEN_x` , where x is 1 to 6 inclusive, from the `Input` interface to the `InOut` interface. 
+
+
+### COM_M_Alcip_FC
+
+#### Investigation
+
+![img_1.png](img_1.png)
+
+Found the addresses were both occupied by the same UDT which is 16-bits wide
+
+#### The Fix
+
+Therefore, updated with the symbolic tags. As shown below.
+
+![img_2.png](img_2.png)
+
+### COMPLETE_RESTART
+
+#### Investigation
+
+Danfoss drives are not used in this project.
+
+#### The Fix
+
+Deleted Network 1
+
+
+### _STD_CondEvaluation
+
+#### Investigation
+
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)
+
+## What's Next
+
+Investigating writing a new function in SCL and estimating work load.
