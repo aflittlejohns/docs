@@ -15,9 +15,7 @@ tags: [ Log Book, TIA Portal]
    6. [TREND_PENS_2](https://github.com/pfAuto/project-uni/issues/51)
    7. [Com_M_Alcip_FC](https://github.com/pfAuto/project-uni/issues/53)
    8. [COMPLETE_RESTART](https://github.com/pfAuto/project-uni/issues/54)
-   9.[_STD_CondEvaluation](https://github.com/pfAuto/project-uni/issues/55)
-
-
+   9. [_STD_CondEvaluation](https://github.com/pfAuto/project-uni/issues/55)
 <!-- truncate -->
 
 ## Compilation Warnings
