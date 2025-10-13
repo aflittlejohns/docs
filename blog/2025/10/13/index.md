@@ -20,6 +20,8 @@ Directly below are links to project issues. **Use the sidebar for in-blog naviga
     8. [_USR_Count01](https://github.com/pfAuto/project-uni/issues/64)
     9. [_STD_CM_AI](https://github.com/pfAuto/project-uni/issues/66)
     10. [_STD_CM_DI](https://github.com/pfAuto/project-uni/issues/67)
+    11. [_STD_SystemFLT](https://github.com/pfAuto/project-uni/issues/68)
+    12. [_STD_CM_AO](https://github.com/pfAuto/project-uni/issues/69)
 <!-- truncate -->
 
 ## Compilation Warnings
@@ -137,5 +139,58 @@ DWord0 of _STD_DI_Stat requires symbolic access, UDT DWord 0 is all bool, can th
 
 Created new UDT's
 - _stdDiParAccess
+
+Replace usage of absolute address with the appropriate symbolic address.
+
+### _STD_SystemFLT
+
+#### Investigation
+
+Absolute addressing employ in construction of an ANY pointer.
+
+#### The Fix
+
+Following the example given [here , how can you contruct an any pointer... and use the AT function](https://support.industry.siemens.com/cs/document/21946854/how-can-you-construct-an-any-pointer-in-s7-scl-using-the-at-function-?dti=0&lc=en-GB)
+
+Created a new UDT called `anyPointer` and employed the `anyPointer` with the AT function to provide symbolic addressing
+in the construction of the ANY pointer.
+
+### _STD_CM_AO
+
+#### Investigation
+
+Absolute address access employed for three UDT's, _STD_AO_Ctrl, _STD_AO_Par and _STD_AO_Stat.
+
+Word0 of _STD_AO_Ctrl requires symbolic access, UDT has mix types, therefore requires new UDT for access
+
+Word0 of _STD_AO_Par requires symbolic access, UDT has mix types, therefore requires new UDT for access
+
+DWord0 of _STD_AO_Stat requires symbolic access, UDT has mix types, therefore requires new UDT for access
+
+#### The Fix
+
+Created new UDT's
+- _stdAoCtrlAccess
+- _stdAoParAccess
+- _stdAoStatAccess
+
+Replace usage of absolute address with the appropriate symbolic addresses.
+### _STD_CM_DO
+
+#### Investigation
+
+
+Absolute address access employed for three UDT's, _STD_DO_Ctrl, _STD_DO_Par and _STD_DO_Stat.
+
+Word0 of _STD_DO_Ctrl requires symbolic access, UDT word 0 is all bool, can there added variable of type word
+
+Word0 of _STD_DO_Par requires symbolic access, UDT has mix types, therefore requires new UDT for access
+
+DWord0 of _STD_DO_Stat requires symbolic access, UDT DWord 0 is all bool, can there added variable of type DWord
+
+#### The Fix
+
+Created new UDT's
+- _stdDoParAccess
 
 Replace usage of absolute address with the appropriate symbolic address.
