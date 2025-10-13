@@ -22,6 +22,7 @@ Directly below are links to project issues. **Use the sidebar for in-blog naviga
     10. [_STD_CM_DI](https://github.com/pfAuto/project-uni/issues/67)
     11. [_STD_SystemFLT](https://github.com/pfAuto/project-uni/issues/68)
     12. [_STD_CM_AO](https://github.com/pfAuto/project-uni/issues/69)
+    13. [_STD_CM_DO](https://github.com/pfAuto/project-uni/issues/70)
 <!-- truncate -->
 
 ## Compilation Warnings
