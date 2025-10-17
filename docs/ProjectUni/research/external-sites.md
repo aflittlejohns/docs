@@ -20,6 +20,7 @@ title: External Site Resources
 11. [OPC UA – An overview of the most important entries and links](https://support.industry.siemens.com/cs/document/109770435/opc-ua-%E2%80%93-an-overview-of-the-most-important-entries-and-links-?dti=0&lc=en-GB)
 12. [TIA Portal - An Overview of the Most Important Documents and Links - Communication](https://support.industry.siemens.com/cs/document/90940081/tia-portal-an-overview-of-the-most-important-documents-and-links-communication?dti=0&lc=en-GB)
 13. [How to use software units in TIA Portal](https://support.industry.siemens.com/cs/attachments/109994876/109994876_Guidline_on_How_to_use_Software_Units_in_TIA_Portal_V1_0_en_V2.pdf)
+14. [Programming Language mnemonic Comparison List](https://cache.industry.siemens.com/dl/files/375/86630375/att_940844/v1/s7_1500_compare_table_en_mnemo.pdf)
 
 
 ## Inductive Automation
