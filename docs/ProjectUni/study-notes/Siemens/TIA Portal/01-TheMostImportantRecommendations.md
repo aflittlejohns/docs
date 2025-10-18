@@ -102,11 +102,47 @@ If you want to reuse the block, please note the following recommendations:
 
 ## ARRAY data type and indirect addressing
 
+### Recommendation
+- **Use ARRAY for indexed accesses instead of pointer** (e.g. ANY pointer). This makes it easier to read the program since an ARRAY is more meaningful with a symbolic name than a pointer in a memory area.
+- **When calculating an index at runtime employ a DINT data type as temporary tag for highest performance**. As memory is accessed 4 bytes at a time.
+- **Use the "MOVE_BLK” instruction to copy parts of an ARRAY into another one.**
+- **Use the "GET_ERR_ID” instruction to catch access errors within the Array.**
+
+:::info Formal parameter array\[*\] ^V14
+Optimized blocks which do not contain `STL` can employ the variable length array formal parameter `Array[*]`
+
+In the code the lower and upper bounds of the index can be found with the `LOWER_BOUND(ARRAY, DIMENSIONS)` and `UPPER_BOUND(ARRAY, DIMENSIONS)` instructions
+:::
+
+![variable-length-array](/img/tia-portal-recommendations/variable-length-array.png)
+
+
 ## Access to I/O areas with PLC data types
+
+### Recommendation
+
+![plc-data-types](/img/tia-portal-recommendations/plc-data-types.png)
+![plc-data-types-cont](/img/tia-portal-recommendations/plc-data-types-cont.png)
 
 ## Libraries
 
+### Recommendation
+- **Create the master copies for easy reusability of blocks, hardware configurations, HMI screens, etc.**
+  - **Create the types for the system-supported reusability of library elements:**
+    - Versioning of blocks
+    - Central update function of all usage locations
+- **Use the global library for the exchange with other users or as central storage for the simultaneous use of several users.**
+- **Configure the storage location of your global library** so it can automatically be opened when starting the TIA Portal.
+
+### Type Concept
+![type-concept](/img/tia-portal-recommendations/type-concept.png)
+
 ## No bit memory but global data blocks
+
+### Recommendation
+
+- **Always use optimized global DBs, instead of bit memory, (system, counters, timers, clock memory).** As, bit memory is not optimized for backward compatibility reasons. And system memory is controller specific.
+
 
 ## References
 - [Programming Guideline for S7-1200/1500](https://cache.industry.siemens.com/dl/files/040/90885040/att_970576/v1/81318674_Programming_guideline_DOC_v16_en.pdf)
