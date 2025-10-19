@@ -8,6 +8,7 @@ tags: [ Log Book, TIA Portal,]
 ## Setting blocks to optimized
 
 Compilation Errors with following blocks
+<!-- truncate -->
 - _STD_SystemFLT
 - AerationAlarms, because of FaultTDAlsafe
 - FaultTDAlsafe
@@ -35,3 +36,7 @@ Compilation Errors with following blocks
 - TT_BrokenFaults, because of FaultTDAlsafe
 - "Valve Stroke", various IDBs not compiled.
 - _STD_CM_AI
+- _STD_CM_AO
+
+:::danger TO Be continued
+:::
