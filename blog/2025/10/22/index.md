@@ -20,6 +20,7 @@ tags: [ Log Book, TIA Portal,]
    11. AerationBarrierCool ...FB
    12. AerationSteamBarrier ...FB
 3. Optimising SblResetTmpLoggData ...FC
+4. Optimising ALS_ScrollList ...FB
 ## FBD migration Negated EN Issue
 <!-- truncate -->
 
