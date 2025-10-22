@@ -13,6 +13,11 @@ TIA Portal:
   permalink: /tia-portal
   description: Anything to aid the grind
 
+IT:
+  label: IT
+  permalink: /it
+  description: Any IT related task
+
 Notes:
   label: Notes
   permalink: /notes
