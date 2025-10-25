@@ -7,7 +7,7 @@ tags: [ Log Book, TIA Portal,]
 ---
 ## Today's Tasks
 1. Optimising RECIPE_COPY
-2. Optimising _USR_COUNT_1
+2. Optimising _USR_COUNT01
 
 
 
@@ -49,7 +49,7 @@ of the running recipe.
 The screenshot above show network 35. The `MOVE` instruction replaces the functionality of the `RECIPE_COPY` function,
 which was subsequently deleted. In this case the selected recipe UDT data is moved to the running recipe.
 
-## Optimising _USR_Count1
+## Optimising _USR_Count01
 
 See Section 2 of the following manual.
 [SIMATIC ET200S Technological Functions](https://cache.industry.siemens.com/dl/files/111/9264111/att_80181/v1/et200s_technological_functions_operating_instructions_en_en-US.pdf)
