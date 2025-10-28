@@ -9,6 +9,7 @@ title: Books
 
 ### Modern Control Design with MATLAB and SIMULINK
 [Contents](/pdf/TewariAshish_2002_Contents_ModernControlDesignWi.pdf)
+
 [Preface](/pdf/TewariAshish_2002_Preface_ModernControlDesignWi.pdf)
 1. [Introduction](/pdf/TewariAshish_2002_1Introduction_ModernControlDesignWi.pdf)
 2. Linear Systems and Classical Control
@@ -69,7 +70,7 @@ title: Books
     7. [Exercises](/pdf/TewariAshish_2002_Exercises_ModernControlDesignWi-5.pdf)
     8. [References](/pdf/TewariAshish_2002_References_ModernControlDesignWi-5.pdf)
 8. Digital Control Systems
-    1. [What are Digital Systems](/pdf/TewariAshish_2002_81What AreDigitalSyste_ModernControlDesignWi.pdf)
+    1. [What are Digital Systems](/pdf/TewariAshish_2002_81WhatAreDigitalSyste_ModernControlDesignWi.pdf)
     2. [A/D Conversion and the z-Transform](/pdf/TewariAshish_2002_82ADConversionAndTheZ_ModernControlDesignWi.pdf)
     3. [Pulse Transter Functions of Single-Input, Single-Output Digital Systems](/pdf/TewariAshish_2002_83PulseTransferFuncti_ModernControlDesignWi.pdf)
     4. [Frequency Response of Single-Input, Single-Output Digital Systems](/pdf/TewariAshish_2002_84FrequencyResponseOf_ModernControlDesignWi.pdf)
