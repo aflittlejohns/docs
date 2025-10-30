@@ -1,13 +1,11 @@
 ---
-slug: 2025-10-28
-
 title: Phase 3 - PLC Optimisation -
 authors: [ aflittlejohns ]
 tags: [ Log Book, TIA Portal,]
 ---
 ## Today's Tasks
 1. Optimising "ALS Compare2RealArea"
-2. Optimising 
+2. Optimising "ALS_StepEngine"
 
 
 
@@ -82,3 +80,13 @@ END_FUNCTION
 :::danger
 Search project for "Commented Out to Compile"
 :::
+
+This function takes in, on it's `Steps` formal parameter, various UDT's or Array of bools of various length and modifies a bit within the given structure
+depending on a given `stepNumber`
+
+Pointers were used in the original classic program which aren't suitable for optimization. To resolve the issue it is
+intended to replace the UDT of bool's for each Step bit to an UDT containing an array of bools representing where each
+bit represents a sequence. For readability the boolean arrays with start and end at an index value which represents both
+the phase and step of that phase.
+
+For example, take the `Sterilization` phase. Step numbers and therefore array index number are in the range 100 to 199.
