@@ -262,14 +262,16 @@ actual parameters, in FBD/LAD blocks, across the project.
   <Component Name="MixOutlet"/>
   <Component Name="Step"/>
   <Component Name="_"/>
-  <Access Scope="LiteralConstant">
+    <Access Scope="LiteralConstant">
     <Constant>
-      <ConstantType>DInt</ConstantType>
-      <ConstantValue>$1</ConstantValue>
+     <ConstantType>DInt</ConstantType>
+     <ConstantValue>$1</ConstantValue>
     </Constant>
-  </Access>
-</Component>
-    </Symbol>
+    </Access>
+    </Component>
+ </Symbol>
+
+
 ```
 
 The above patterns were adjusted for each top level tag in the `T001_Steps` Datablock.
@@ -296,3 +298,26 @@ array within the given UDT.
 #### ALS_StepEngine actual parameter required update (after)
 
 ![img4.png](/img/2025/10/29/img4.png)
+
+```xml
+<Symbol>
+ <Component Name="DB:FAULTS" />
+ <Component Name=("[A-Za-z_0-9]{1,}") />
+ <Component Name=("[A-Za-z_0-9]{1,}") />
+</Symbol>
+
+```
+```xml
+
+<Symbol>
+ <Component Name="DB:FAULTS" />
+ <Component Name="alarm" AccessModifier="Array">
+  <Access Scope="GlobalConstant">
+   <Constant Name=$1 />
+  </Access>
+ </Component>
+ <Component Name=$2 />
+</Symbol>
+
+
+```
