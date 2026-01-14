@@ -3,10 +3,12 @@ title: External Site Resources
 ---
 
 ## Software Development
+
 1. [Python Documentation](https://docs.python.org/3/) 
 2. [Python Package Index](https://pypi.org/)
 
 ## Siemens - Industrial Solutions
+
 1. [SiePortal- Home](https://sieportal.siemens.com/en-ww/home)
 2. [Migration of plants with SIMATIC (TIA Portal) - Controllers](https://www.industry-mobile-support.siemens-info.com/en/article/detail/83557459)
 3. [TIA Portal Migration of STL programs to S7-1500 en](https://support.industry.siemens.com/cs/attachments/67655405/67655405_STEP7_Migration_von_AWL-Programmen_nach_S7-1500_en.pdf)
@@ -23,9 +25,18 @@ title: External Site Resources
 13. [How to use software units in TIA Portal](https://support.industry.siemens.com/cs/attachments/109994876/109994876_Guidline_on_How_to_use_Software_Units_in_TIA_Portal_V1_0_en_V2.pdf)
 14. [Programming Language mnemonic Comparison List](https://cache.industry.siemens.com/dl/files/375/86630375/att_940844/v1/s7_1500_compare_table_en_mnemo.pdf)
 
-
+## OnLogic 
+1. [TC401 Documentation](https://support.onlogic.com/product-documentation/panel-products/tc401-tn101)
+2. 
 ## Inductive Automation
+
 1. [Inductive Automation Docs](https://docs.inductiveautomation.com/)
 2. 
 ## Technical Standards
+
 1. [IANA - Internet Assigned Numbers Authority - Port Numbers](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+
+## OT Cybersecurity
+
+1. [Making sense of cyber security in OT environments](https://www.ncsc.gov.uk/collection/operational-technology)
+2. [MITRE ATT&CK framework for OT](https://attack.mitre.org/matrices/ics/)

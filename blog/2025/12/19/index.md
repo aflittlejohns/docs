@@ -1,6 +1,6 @@
 ---
 
-title: Phase 4 - HMI Design -
+title: Phase 4 - HMI Design - OPC UA Configuration
 authors: [ aflittlejohns ]
 tags: [ Log Book, TIA Portal,]
 ---

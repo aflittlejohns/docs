@@ -2,6 +2,8 @@
 title: HMI Info
 ---
 
+## Original E-Designer project - Screen Names
+
 |Block number| Type| Block name| Page|
 |---|---|---|---|
 |0 |Graphic| Overview | |
